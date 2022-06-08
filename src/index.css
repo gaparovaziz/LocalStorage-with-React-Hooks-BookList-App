@@ -1,11 +1,16 @@
 *{
     margin: 0;
     padding: 0;
+    font-size: 1.2rem;
 }
 
 .wrapper{
     overflow-x: hidden;
     overflow-y: auto;    
+}
+
+.form-group {
+    display: flex;
 }
 
 .wrapper h1{
@@ -20,30 +25,35 @@
 }
 
 .wrapper .main{
-    display: flex;
     margin-top: 20px;
     align-items: center;
 }
 
+.form-control {
+    box-shadow: 0 0 3px black;
+    margin-right: .5rem;
+}
+
 .wrapper .form-container{
-    width: 500px;
-    height: 340px;
-    background-color: #e4e4e4;
+    width: 60%;
+    /* background-color: #e4e4e4; */
     margin: 20px auto;
-    padding: 20px;   
+    padding: 10px;  
+    border-radius: 10px; 
 }
 
 .wrapper .form-container .btn{
-    width: 100%;   
+    padding: 0 2rem;
 }
 
 .wrapper .view-container{
     width: 600px;    
-    background-color: #e4e4e4;
+    background-color: #e4e4e48a;
     margin: 20px auto;
     padding: 20px;
     display: flex;
     flex-direction: column;
+    border-radius: 5px;
 }
 
 .delete-btn{
